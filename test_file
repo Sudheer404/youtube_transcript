@@ -1,0 +1,19 @@
+from youtube_transcript_api import YouTubeTranscriptApi
+
+video_id = "_xH-jXNFRjA"
+
+try:
+
+    api = YouTubeTranscriptApi()
+
+    transcript = api.fetch(video_id)
+
+    print(f"Retrieved {len(transcript)} segments")
+
+    print("\nFirst transcript lines:\n")
+
+    for item in transcript[:10]:
+        print(item.text)
+
+except Exception as e:
+    print("ERROR:", e)

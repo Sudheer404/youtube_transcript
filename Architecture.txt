@@ -1,0 +1,16 @@
+YouTube Playlist URL
+          │
+          ▼
+Fetch Playlist Videos
+          │
+          ▼
+For each Video
+ ├── Get Metadata
+ ├── Get Transcript
+ └── Format Output
+          │
+          ▼
+Combine Results
+          │
+          ▼
+Export Transcript_File.txt

@@ -1,0 +1,13 @@
+Build a Python application that:
+
+1) Accepts a YouTube playlist URL.
+2) Fetches all videos from the playlist.
+3)Extracts:
+    Video Title
+    Video URL
+    Channel Name
+    Duration
+    Publish Date (if available)
+    Full Transcript
+4) Combines everything into a single structured text file.
+5) Optionally exports CSV, JSON, Markdown, or TXT.
